@@ -1,0 +1,15 @@
+#requirements.txt
+snowflake-snowpark-python
+streamlit
+
+name: snowflake-streamlit-env
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - streamlit
+  - snowflake-snowpark-python
+  - pandas
